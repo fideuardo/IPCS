@@ -11,6 +11,10 @@ The Instrument Panel Cluster System is a project based on Linux. This project co
 * Jenkins (Probably it change to github actions)
 * CI/CD
 
+<aside class="info" style="border: 2px solid green; padding: 10px; border-radius: 5px; background-color: #e8f5e9;">
+    <strong>ℹ️ Info</strong>
+    <p>Build project: cmake -B build && cmake --build build</p>
+</aside>
 
 <aside class="info" style="border: 2px solid green; padding: 10px; border-radius: 5px; background-color: #e8f5e9;">
     <strong>ℹ️ Info</strong>
