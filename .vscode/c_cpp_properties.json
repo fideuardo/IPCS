@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "MSYS2",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/pkg/**",
+                "${env:MSYS2_PREFIX}/include",
+                "${env:MSYS2_PREFIX}/lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+                "${env:MSYS2_PREFIX}/lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "${env:MSYS2_PREFIX}/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
