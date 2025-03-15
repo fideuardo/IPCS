@@ -9,4 +9,5 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Agregar ejecutable directamente (sin add_subdirectory)
-add_executable(${PROJECT_NAME} app/main.cpp)
+add_subdirectory(app)
+add_subdirectory(pkg/TaskManager)
